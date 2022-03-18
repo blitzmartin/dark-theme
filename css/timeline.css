@@ -1,0 +1,92 @@
+.resume {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.resume .section {
+    flex-basis: 50%;
+    padding: 0 0.5rem;
+   
+    margin: 0;
+}
+
+.resume h2 {
+    margin-bottom: 4rem;
+}
+
+
+.timeline-item {
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+   
+}
+.timeline-item:after {
+    position: absolute;
+    content: '';
+    background-color: black;
+    height: 100%;
+    width: 3px;
+   
+    z-index: -5;
+    top: 10px;
+    left: 36px;
+    
+    
+
+}
+.timeline-last-item {
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+  
+
+}
+
+.year {
+   
+    width: 80px;
+    height: 80px;
+   
+    background-color: #001AFE;
+    border-radius: 50%;
+    
+
+    /* *center year* */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* ****** */
+    
+
+}
+
+.year p {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    
+  
+    
+    
+}
+
+.resume .text {
+    flex-basis: 70%;
+    padding-bottom: 2rem;
+    margin: 0 1.5rem;
+}
+.resume .section h3 {
+    display: inline;
+}
+.resume .section h6 {
+    display: inline;
+    
+}
+.resume .text h6 {
+    font-size: 0.8rem;
+    margin: 0 0.5rem;
+}
+.resume .text p {
+    margin-top: 1.2rem;
+}
